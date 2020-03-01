@@ -14,6 +14,18 @@
 // function `resourcePath()` from ResourcePath.hpp
 //
 
+/*
+TODO:
+the project comes with a basic example in main.cpp and the helper function 
+std::string resourcePath(void); in ResourcePath.hpp and ResourcePath.mm. 
+The purpose of this function, as illustrated in the provided example, is to 
+provide a convenient way to access the Resources folder of your application 
+bundle.
+Please note that this function only works on macOS. If you are planning to make 
+your application work on other operating systems, you should implement your own 
+version of this function on the operating systems in question.
+*/
+
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
 
