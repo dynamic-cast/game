@@ -33,11 +33,22 @@ First, make sure you have all of these dependencies:
 * openal
 * pthread
 
-#### On apt
+If you're in a Debian derived system you just have to have `cmake`.
 
 ```
 sudo apt install cmake
 ```
+
+Next do the following in your source directory:
+
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+
+Run it with `./sfml-app`.
 
 ### Typing a thousand flags
 
